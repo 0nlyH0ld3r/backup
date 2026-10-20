@@ -1,0 +1,15 @@
+[
+  {
+    "file": "src/main.c",
+    "arguments": [
+      "gcc",
+      "-Wall",
+      "-Wextra",
+      "src/main.c",
+      "-o",
+      "main"
+    ],
+    "directory": "/home/brunov/codigos/testes/wav-file",
+    "output": "main"
+  }
+]
