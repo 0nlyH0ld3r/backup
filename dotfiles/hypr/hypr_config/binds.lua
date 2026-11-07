@@ -14,6 +14,8 @@ hl.bind(
 	mainMod .. " + M",
 	hl.dsp.exec_cmd("command -v hyprshutdown >/dev/null 2>&1 && hyprshutdown || hyprctl dispatch 'hl.dsp.exit()'")
 )
+
+hl.bind(mainMod .. " + CTRL + M", hl.dsp.exec_cmd("hyprlock"))
 hl.bind(mainMod .. " + Space", hl.dsp.exec_cmd(apps.fileManager))
 hl.bind(mainMod .. " + F", hl.dsp.window.fullscreen({ mode = 1 }))
 hl.bind(mainMod .. " + P", hl.dsp.window.pin())
